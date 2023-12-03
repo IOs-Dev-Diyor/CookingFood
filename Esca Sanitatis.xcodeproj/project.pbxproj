@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C3C7C3F2B19FB4300BEA95B /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3C7C3B2B19FB4300BEA95B /* CustomView.swift */; };
+		5C3C7C402B19FB4300BEA95B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3C7C3C2B19FB4300BEA95B /* GameViewController.swift */; };
+		5C3C7C412B19FB4300BEA95B /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3C7C3D2B19FB4300BEA95B /* CustomButton.swift */; };
+		5C3C7C422B19FB4300BEA95B /* GameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3C7C3E2B19FB4300BEA95B /* GameTableViewCell.swift */; };
+		E73E93EF2B18BB2C00F9F61F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73E93EE2B18BB2C00F9F61F /* AppDelegate.swift */; };
+		E73E93F32B18BB2C00F9F61F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73E93F22B18BB2C00F9F61F /* ViewController.swift */; };
+		E73E93F62B18BB2C00F9F61F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E73E93F42B18BB2C00F9F61F /* Main.storyboard */; };
+		E73E93F82B18BB2D00F9F61F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E73E93F72B18BB2D00F9F61F /* Assets.xcassets */; };
+		E73E93FB2B18BB2D00F9F61F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E73E93F92B18BB2D00F9F61F /* LaunchScreen.storyboard */; };
+		E73E94202B18BCFC00F9F61F /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73E94052B18BCFC00F9F61F /* SettingViewController.swift */; };
+		E73E94212B18BCFC00F9F61F /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73E94062B18BCFC00F9F61F /* SettingsTableViewCell.swift */; };
+		E73E94222B18BCFC00F9F61F /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73E94072B18BCFC00F9F61F /* AboutViewController.swift */; };
+		E73E94232B18BCFC00F9F61F /* FoodsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73E94092B18BCFC00F9F61F /* FoodsViewController.swift */; };
+		E73E94242B18BCFC00F9F61F /* FoodsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73E940B2B18BCFC00F9F61F /* FoodsTableViewCell.swift */; };
+		E73E94252B18BCFC00F9F61F /* FoodsAboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73E940C2B18BCFC00F9F61F /* FoodsAboutViewController.swift */; };
+		E73E94262B18BCFC00F9F61F /* MTUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73E940F2B18BCFC00F9F61F /* MTUserDefaults.swift */; };
+		E73E94272B18BCFC00F9F61F /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73E94102B18BCFC00F9F61F /* Theme.swift */; };
+		E73E94282B18BCFC00F9F61F /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = E73E94132B18BCFC00F9F61F /* recipes.json */; };
+		E73E94292B18BCFC00F9F61F /* health.json in Resources */ = {isa = PBXBuildFile; fileRef = E73E94142B18BCFC00F9F61F /* health.json */; };
+		E73E942A2B18BCFC00F9F61F /* inspiration.json in Resources */ = {isa = PBXBuildFile; fileRef = E73E94152B18BCFC00F9F61F /* inspiration.json */; };
+		E73E942B2B18BCFC00F9F61F /* budget.json in Resources */ = {isa = PBXBuildFile; fileRef = E73E94162B18BCFC00F9F61F /* budget.json */; };
+		E73E942C2B18BCFC00F9F61F /* baking.json in Resources */ = {isa = PBXBuildFile; fileRef = E73E94172B18BCFC00F9F61F /* baking.json */; };
+		E73E942D2B18BCFC00F9F61F /* TabBarVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73E94192B18BCFC00F9F61F /* TabBarVc.swift */; };
+		E73E942E2B18BCFC00F9F61F /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73E941B2B18BCFC00F9F61F /* FavoriteViewController.swift */; };
+		E73E942F2B18BCFC00F9F61F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73E941D2B18BCFC00F9F61F /* Model.swift */; };
+		E73E94302B18BCFC00F9F61F /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73E941F2B18BCFC00F9F61F /* SearchViewController.swift */; };
+		F7961F32693AD2D9AD13704D /* Pods_Esca_Sanitatis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2457B2068DEB817DB95B7F6E /* Pods_Esca_Sanitatis.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2457B2068DEB817DB95B7F6E /* Pods_Esca_Sanitatis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Esca_Sanitatis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C3C7C3B2B19FB4300BEA95B /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		5C3C7C3C2B19FB4300BEA95B /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		5C3C7C3D2B19FB4300BEA95B /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		5C3C7C3E2B19FB4300BEA95B /* GameTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameTableViewCell.swift; sourceTree = "<group>"; };
+		81A324DA8C8199437F1DB602 /* Pods-Esca Sanitatis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Esca Sanitatis.release.xcconfig"; path = "Target Support Files/Pods-Esca Sanitatis/Pods-Esca Sanitatis.release.xcconfig"; sourceTree = "<group>"; };
+		A971F8611D993CE7EB055C60 /* Pods-Esca Sanitatis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Esca Sanitatis.debug.xcconfig"; path = "Target Support Files/Pods-Esca Sanitatis/Pods-Esca Sanitatis.debug.xcconfig"; sourceTree = "<group>"; };
+		E73E93EB2B18BB2C00F9F61F /* Esca Sanitatis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Esca Sanitatis.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E73E93EE2B18BB2C00F9F61F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E73E93F22B18BB2C00F9F61F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E73E93F52B18BB2C00F9F61F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E73E93F72B18BB2D00F9F61F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E73E93FA2B18BB2D00F9F61F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E73E93FC2B18BB2D00F9F61F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E73E94052B18BCFC00F9F61F /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		E73E94062B18BCFC00F9F61F /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		E73E94072B18BCFC00F9F61F /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		E73E94092B18BCFC00F9F61F /* FoodsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodsViewController.swift; sourceTree = "<group>"; };
+		E73E940B2B18BCFC00F9F61F /* FoodsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodsTableViewCell.swift; sourceTree = "<group>"; };
+		E73E940C2B18BCFC00F9F61F /* FoodsAboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodsAboutViewController.swift; sourceTree = "<group>"; };
+		E73E940F2B18BCFC00F9F61F /* MTUserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTUserDefaults.swift; sourceTree = "<group>"; };
+		E73E94102B18BCFC00F9F61F /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		E73E94132B18BCFC00F9F61F /* recipes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = recipes.json; sourceTree = "<group>"; };
+		E73E94142B18BCFC00F9F61F /* health.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = health.json; sourceTree = "<group>"; };
+		E73E94152B18BCFC00F9F61F /* inspiration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = inspiration.json; sourceTree = "<group>"; };
+		E73E94162B18BCFC00F9F61F /* budget.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = budget.json; sourceTree = "<group>"; };
+		E73E94172B18BCFC00F9F61F /* baking.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = baking.json; sourceTree = "<group>"; };
+		E73E94192B18BCFC00F9F61F /* TabBarVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarVc.swift; sourceTree = "<group>"; };
+		E73E941B2B18BCFC00F9F61F /* FavoriteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		E73E941D2B18BCFC00F9F61F /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		E73E941F2B18BCFC00F9F61F /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E73E93E82B18BB2C00F9F61F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7961F32693AD2D9AD13704D /* Pods_Esca_Sanitatis.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10BA250BCB7309BD5C7AD3F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A971F8611D993CE7EB055C60 /* Pods-Esca Sanitatis.debug.xcconfig */,
+				81A324DA8C8199437F1DB602 /* Pods-Esca Sanitatis.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5C3C7C3A2B19FB4300BEA95B /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				5C3C7C3B2B19FB4300BEA95B /* CustomView.swift */,
+				5C3C7C3C2B19FB4300BEA95B /* GameViewController.swift */,
+				5C3C7C3D2B19FB4300BEA95B /* CustomButton.swift */,
+				5C3C7C3E2B19FB4300BEA95B /* GameTableViewCell.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		7F775B56499B4E878EBC56A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2457B2068DEB817DB95B7F6E /* Pods_Esca_Sanitatis.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E73E93E22B18BB2C00F9F61F = {
+			isa = PBXGroup;
+			children = (
+				E73E93ED2B18BB2C00F9F61F /* Esca Sanitatis */,
+				E73E93EC2B18BB2C00F9F61F /* Products */,
+				10BA250BCB7309BD5C7AD3F2 /* Pods */,
+				7F775B56499B4E878EBC56A4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E73E93EC2B18BB2C00F9F61F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E73E93EB2B18BB2C00F9F61F /* Esca Sanitatis.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E73E93ED2B18BB2C00F9F61F /* Esca Sanitatis */ = {
+			isa = PBXGroup;
+			children = (
+				E73E94032B18BCFC00F9F61F /* All */,
+				E73E93EE2B18BB2C00F9F61F /* AppDelegate.swift */,
+				E73E93F22B18BB2C00F9F61F /* ViewController.swift */,
+				E73E93F42B18BB2C00F9F61F /* Main.storyboard */,
+				E73E93F72B18BB2D00F9F61F /* Assets.xcassets */,
+				E73E93F92B18BB2D00F9F61F /* LaunchScreen.storyboard */,
+				E73E93FC2B18BB2D00F9F61F /* Info.plist */,
+			);
+			path = "Esca Sanitatis";
+			sourceTree = "<group>";
+		};
+		E73E94032B18BCFC00F9F61F /* All */ = {
+			isa = PBXGroup;
+			children = (
+				5C3C7C3A2B19FB4300BEA95B /* Game */,
+				E73E94082B18BCFC00F9F61F /* Home */,
+				E73E94322B18BDB400F9F61F /* About */,
+				E73E94042B18BCFC00F9F61F /* Settings */,
+				E73E940D2B18BCFC00F9F61F /* Resources */,
+				E73E94182B18BCFC00F9F61F /* TabBar */,
+				E73E941A2B18BCFC00F9F61F /* Favorite */,
+				E73E941C2B18BCFC00F9F61F /* Models */,
+				E73E941E2B18BCFC00F9F61F /* Search */,
+			);
+			path = All;
+			sourceTree = "<group>";
+		};
+		E73E94042B18BCFC00F9F61F /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				E73E94052B18BCFC00F9F61F /* SettingViewController.swift */,
+				E73E94062B18BCFC00F9F61F /* SettingsTableViewCell.swift */,
+				E73E94072B18BCFC00F9F61F /* AboutViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		E73E94082B18BCFC00F9F61F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E73E94092B18BCFC00F9F61F /* FoodsViewController.swift */,
+				E73E940A2B18BCFC00F9F61F /* Cell */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E73E940A2B18BCFC00F9F61F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E73E940B2B18BCFC00F9F61F /* FoodsTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		E73E940D2B18BCFC00F9F61F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E73E940E2B18BCFC00F9F61F /* Mode */,
+				E73E94112B18BCFC00F9F61F /* JsonFiles */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E73E940E2B18BCFC00F9F61F /* Mode */ = {
+			isa = PBXGroup;
+			children = (
+				E73E940F2B18BCFC00F9F61F /* MTUserDefaults.swift */,
+				E73E94102B18BCFC00F9F61F /* Theme.swift */,
+			);
+			path = Mode;
+			sourceTree = "<group>";
+		};
+		E73E94112B18BCFC00F9F61F /* JsonFiles */ = {
+			isa = PBXGroup;
+			children = (
+				E73E94122B18BCFC00F9F61F /* Foods */,
+			);
+			path = JsonFiles;
+			sourceTree = "<group>";
+		};
+		E73E94122B18BCFC00F9F61F /* Foods */ = {
+			isa = PBXGroup;
+			children = (
+				E73E94132B18BCFC00F9F61F /* recipes.json */,
+				E73E94142B18BCFC00F9F61F /* health.json */,
+				E73E94152B18BCFC00F9F61F /* inspiration.json */,
+				E73E94162B18BCFC00F9F61F /* budget.json */,
+				E73E94172B18BCFC00F9F61F /* baking.json */,
+			);
+			path = Foods;
+			sourceTree = "<group>";
+		};
+		E73E94182B18BCFC00F9F61F /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				E73E94192B18BCFC00F9F61F /* TabBarVc.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		E73E941A2B18BCFC00F9F61F /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				E73E941B2B18BCFC00F9F61F /* FavoriteViewController.swift */,
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
+		E73E941C2B18BCFC00F9F61F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E73E941D2B18BCFC00F9F61F /* Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E73E941E2B18BCFC00F9F61F /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				E73E941F2B18BCFC00F9F61F /* SearchViewController.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		E73E94322B18BDB400F9F61F /* About */ = {
+			isa = PBXGroup;
+			children = (
+				E73E940C2B18BCFC00F9F61F /* FoodsAboutViewController.swift */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E73E93EA2B18BB2C00F9F61F /* Esca Sanitatis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E73E93FF2B18BB2D00F9F61F /* Build configuration list for PBXNativeTarget "Esca Sanitatis" */;
+			buildPhases = (
+				B2837524069FD5B1AA7F2A73 /* [CP] Check Pods Manifest.lock */,
+				E73E93E72B18BB2C00F9F61F /* Sources */,
+				E73E93E82B18BB2C00F9F61F /* Frameworks */,
+				E73E93E92B18BB2C00F9F61F /* Resources */,
+				CF33AF4724AFD6B22BF7FE0E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Esca Sanitatis";
+			productName = "Esca Sanitatis";
+			productReference = E73E93EB2B18BB2C00F9F61F /* Esca Sanitatis.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E73E93E32B18BB2C00F9F61F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					E73E93EA2B18BB2C00F9F61F = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = E73E93E62B18BB2C00F9F61F /* Build configuration list for PBXProject "Esca Sanitatis" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E73E93E22B18BB2C00F9F61F;
+			productRefGroup = E73E93EC2B18BB2C00F9F61F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E73E93EA2B18BB2C00F9F61F /* Esca Sanitatis */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E73E93E92B18BB2C00F9F61F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E73E93FB2B18BB2D00F9F61F /* LaunchScreen.storyboard in Resources */,
+				E73E93F82B18BB2D00F9F61F /* Assets.xcassets in Resources */,
+				E73E942B2B18BCFC00F9F61F /* budget.json in Resources */,
+				E73E942A2B18BCFC00F9F61F /* inspiration.json in Resources */,
+				E73E94292B18BCFC00F9F61F /* health.json in Resources */,
+				E73E93F62B18BB2C00F9F61F /* Main.storyboard in Resources */,
+				E73E94282B18BCFC00F9F61F /* recipes.json in Resources */,
+				E73E942C2B18BCFC00F9F61F /* baking.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B2837524069FD5B1AA7F2A73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Esca Sanitatis-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF33AF4724AFD6B22BF7FE0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Esca Sanitatis/Pods-Esca Sanitatis-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Esca Sanitatis/Pods-Esca Sanitatis-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Esca Sanitatis/Pods-Esca Sanitatis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E73E93E72B18BB2C00F9F61F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C3C7C3F2B19FB4300BEA95B /* CustomView.swift in Sources */,
+				E73E94262B18BCFC00F9F61F /* MTUserDefaults.swift in Sources */,
+				E73E94232B18BCFC00F9F61F /* FoodsViewController.swift in Sources */,
+				E73E93F32B18BB2C00F9F61F /* ViewController.swift in Sources */,
+				E73E93EF2B18BB2C00F9F61F /* AppDelegate.swift in Sources */,
+				E73E94212B18BCFC00F9F61F /* SettingsTableViewCell.swift in Sources */,
+				E73E942D2B18BCFC00F9F61F /* TabBarVc.swift in Sources */,
+				E73E942F2B18BCFC00F9F61F /* Model.swift in Sources */,
+				E73E94242B18BCFC00F9F61F /* FoodsTableViewCell.swift in Sources */,
+				E73E94302B18BCFC00F9F61F /* SearchViewController.swift in Sources */,
+				E73E94222B18BCFC00F9F61F /* AboutViewController.swift in Sources */,
+				5C3C7C422B19FB4300BEA95B /* GameTableViewCell.swift in Sources */,
+				E73E94272B18BCFC00F9F61F /* Theme.swift in Sources */,
+				5C3C7C402B19FB4300BEA95B /* GameViewController.swift in Sources */,
+				5C3C7C412B19FB4300BEA95B /* CustomButton.swift in Sources */,
+				E73E94252B18BCFC00F9F61F /* FoodsAboutViewController.swift in Sources */,
+				E73E942E2B18BCFC00F9F61F /* FavoriteViewController.swift in Sources */,
+				E73E94202B18BCFC00F9F61F /* SettingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E73E93F42B18BB2C00F9F61F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E73E93F52B18BB2C00F9F61F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E73E93F92B18BB2D00F9F61F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E73E93FA2B18BB2D00F9F61F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E73E93FD2B18BB2D00F9F61F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E73E93FE2B18BB2D00F9F61F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E73E94002B18BB2D00F9F61F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A971F8611D993CE7EB055C60 /* Pods-Esca Sanitatis.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SQ38KS8U5T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Esca Sanitatis/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.project.Esca-Sanitatis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E73E94012B18BB2D00F9F61F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81A324DA8C8199437F1DB602 /* Pods-Esca Sanitatis.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SQ38KS8U5T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Esca Sanitatis/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.project.Esca-Sanitatis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E73E93E62B18BB2C00F9F61F /* Build configuration list for PBXProject "Esca Sanitatis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E73E93FD2B18BB2D00F9F61F /* Debug */,
+				E73E93FE2B18BB2D00F9F61F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E73E93FF2B18BB2D00F9F61F /* Build configuration list for PBXNativeTarget "Esca Sanitatis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E73E94002B18BB2D00F9F61F /* Debug */,
+				E73E94012B18BB2D00F9F61F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E73E93E32B18BB2C00F9F61F /* Project object */;
+}

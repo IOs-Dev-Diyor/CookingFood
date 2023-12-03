@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-Esca Sanitatis/Pods-Esca Sanitatis-frameworks.sh
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/SETabView/SETabView.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework

@@ -1,0 +1,26 @@
+PODS:
+  - SDWebImage (5.17.0):
+    - SDWebImage/Core (= 5.17.0)
+  - SDWebImage/Core (5.17.0)
+  - SETabView (2.0.0)
+  - SnapKit (5.6.0)
+
+DEPENDENCIES:
+  - SDWebImage
+  - SETabView
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - SDWebImage
+    - SETabView
+    - SnapKit
+
+SPEC CHECKSUMS:
+  SDWebImage: 750adf017a315a280c60fde706ab1e552a3ae4e9
+  SETabView: 20a3418b1bc61b36d7f6fb9195f1ebb0907bdf35
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+
+PODFILE CHECKSUM: 0972692ed93924a8dfca696f462b7c61e408dedf
+
+COCOAPODS: 1.12.1
